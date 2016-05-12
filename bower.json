@@ -1,0 +1,30 @@
+{
+  "name": "angular-stalker",
+  "homepage": "https://github.com/pelizza/angular-stalker",
+  "authors": [
+    "Vitor Pelizza <vitor.pelizza@gmail.com>"
+  ],
+  "description": "Angular directive wrapping jQuery Stalker plugin",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "angular",
+    "stalker",
+    "jquery"
+  ],
+  "license": "GNU General Public License v3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.3.8",
+    "jquery": "~2.1.1",
+    "stalker": "^1.0.0"
+  }
+}
