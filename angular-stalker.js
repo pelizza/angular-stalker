@@ -2,12 +2,12 @@
   'use strict';
 
   angular.module('angular-stalker', [])
-    .directive('angular-stalker', function() {
+    .directive('angularStalker', function() {
       return {
         restrict: 'A',
         link: function(scope, elem) {
           elem.stalker();
         }
-      }
+      };
     });
 })();
