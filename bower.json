@@ -1,11 +1,12 @@
 {
   "name": "angular-stalker",
+  "version": "0.1.0",
   "homepage": "https://github.com/pelizza/angular-stalker",
   "authors": [
     "Vitor Pelizza <vitor.pelizza@gmail.com>"
   ],
   "description": "Angular directive wrapping jQuery Stalker plugin",
-  "main": "",
+  "main": "angular-stalker.js",
   "moduleType": [
     "amd"
   ],
