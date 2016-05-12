@@ -2,11 +2,15 @@
   'use strict';
 
   angular.module('angular-stalker', [])
-    .directive('angularStalker', function() {
+    .directive('angularStalker', function($timeout) {
       return {
         restrict: 'A',
         link: function(scope, elem) {
-          elem.stalker();
+          $timeout(function() {
+            elem.stalker({
+              stalkerStyle: attrs.angularStalkerStyle
+            });
+          });
         }
       };
     });
