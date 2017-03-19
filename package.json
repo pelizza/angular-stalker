@@ -1,0 +1,24 @@
+{
+  "name": "angular-stalker",
+  "version": "0.1.0",
+  "description": "Angular directive wrapping jQuery Stalker plugin: https://github.com/box/stalker",
+  "main": "angular-stalker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pelizza/angular-stalker.git"
+  },
+  "keywords": [
+    "angular",
+    "stalker",
+    "jquery"
+  ],
+  "author": "\"Vitor Pelizza <vitor.pelizza@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pelizza/angular-stalker/issues"
+  },
+  "homepage": "https://github.com/pelizza/angular-stalker#readme"
+}
